@@ -16,7 +16,6 @@ class ball():
 
     def collide_check(self, b1, b2):
         if self.Rect.colliderect(b1):
-            print("burger")
             self.lateral_flip()
             self.move()
             self.move()
