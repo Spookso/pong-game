@@ -18,14 +18,14 @@ def draw_window():
 
     pygame.display.update()
 
-balls.append(classes.ball(200, 400, 10))
+balls.append(classes.ball(300, 300, 10))
 # balls.append(classes.ball(400, 400, 10))
 boards.append(classes.board(50, 300, 1))
 boards.append(classes.board(740, 400, 1))
 
 run = True
 while run:
-    clock.tick(240)
+    clock.tick(280)
     mouse_pos = pygame.mouse.get_pos()
 
     for ball in balls:
